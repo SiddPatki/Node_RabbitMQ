@@ -1,0 +1,23 @@
+Messaging Queue using NodeJs and RabbitMQ
+based on- https://medium.com/swlh/how-to-implement-a-simple-message-queue-in-node-js-ee52e4ad6615
+
+
+It is used wherever an immediate response in not required.
+Message queue have multiple application:
+	Live notification to user on a web site without refreshing.
+	Posting review of product after processing it through system.
+
+Messaging Queue enables asynchronous communication, where application(producer) puts a message onto a message queue and does not require an immediate response to continuing processing.
+The producer and consumer do not interact directly with each other, but they interact through message queue.
+This way of handling messages decouples the producer from the consumer so that they do not need to interact with the message queue simultaneously and immediately.
+
+
+npm init -y
+To create a default package.json using information extracted from the current directory, use the npm init command with the --yes or -y flag. 
+
+touch index.js
+
+
+
+npm install –-save amqplib
+Advanced Message Queuing Protocol (AMQP) 
