@@ -25,7 +25,7 @@ To create a default package.json using information extracted from the current di
 3.npm install –-save amqplib
 Advanced Message Queuing Protocol (AMQP) 
 
-4.install RabitMQ and erlang
+4.install RabitMQ and erlang. In rabbitMq shell *rabbitmq-plugins enable rabbitmq_management*
 
 5.login at localhost:15672 through Guest (id/pwd: guest) and create a queue called 'node_queue'
 
